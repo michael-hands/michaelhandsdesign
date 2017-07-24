@@ -256,7 +256,7 @@ table {
 	}
 
 
-	.caption-style-1 .caption{
+	.caption-style-1 .caption {
 		cursor: pointer;
 		position: absolute;
 		opacity: 0;
@@ -265,12 +265,14 @@ table {
 		-o-transition:all 0.45s ease-in-out;
 		-ms-transition:all 0.45s ease-in-out;
 		transition:all 0.45s ease-in-out;
+        width: 100%;
+        height: auto;
 
 	}
 	.caption-style-1 .blur{
 		background-color: rgba(0,0,0,0.65);
-		height: 300px;
-		width: 400px;
+		height: 400px;
+		width: 100%;
 		z-index: 5;
 		position: absolute;
 	}
@@ -283,10 +285,10 @@ table {
 		z-index: 10;
 		color: #fff;
 		position: absolute;
-		width: 400px;
+		width: 100%;
 		height: 300px;
 		text-align: center;
-		top:100px;
+		margin-top: 25%;;
 	}
 
 .scroll {
