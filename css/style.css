@@ -157,6 +157,7 @@ a:visited {
     display: flex;
     align-items: center;
     white-space:nowrap;
+    width: 100%;
 }
 
 table {
@@ -217,9 +218,7 @@ table {
     height: 83%; width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: 40px;
+    margin: auto;
 }
 
 
@@ -238,6 +237,7 @@ table {
 		overflow: hidden;
         padding-top: 0px;
         margin-left: 0px;
+        width: 33.333333%
         
 	}
 
@@ -252,6 +252,7 @@ table {
 		padding: 0px;
 		float: left;
 		z-index: 4;
+        width: 100%;
 	}
 
 
